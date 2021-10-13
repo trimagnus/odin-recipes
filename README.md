@@ -1,0 +1,1 @@
+The Odin Recipes project is meant as a stepping stone into the broader study of HTML.
