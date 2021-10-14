@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.box-container {
+  border: 1px solid grey;
+  text-align: center;
+  background-color: rgb(83, 201, 248)
+}
+
+h1 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 60px;
+  margin: 20px;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Per MDN, to fix bug with screen readers */
+ul li::before {
+  content: "\200B";
+}
+
+li {
+  background-color: rgb(184, 183, 183);
+  border: 1px solid black;
+  border-radius: 4px;
+  height: 80px;
+  margin-bottom: 12px;
+  padding-top: 30px;
+  text-align: center;
+  width: 100%;
+}
+
+li:hover {
+  cursor: pointer;
+  background-color: rgb(151, 67, 67);
+}
+
+li a {
+  color: white;
+  font-size: 40px;
+  text-decoration: none;
+}
