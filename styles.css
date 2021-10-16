@@ -26,13 +26,11 @@ ul li::before {
 
 li {
   background-color: rgb(184, 183, 183);
-  border: 1px solid black;
-  border-radius: 4px;
-  height: 80px;
+  border: 2px solid black;
+  border-radius: 8px;
   margin-bottom: 12px;
   padding-top: 30px;
   text-align: center;
-  width: 100%;
 }
 
 li:hover {
@@ -43,5 +41,6 @@ li:hover {
 li a {
   color: white;
   font-size: 40px;
+  height: 80px;
   text-decoration: none;
 }
